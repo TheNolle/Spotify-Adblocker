@@ -27,30 +27,6 @@
 
 !async function () {
 
-    // Alert box wich launch when on the website
-    alert(`_______________________________________________________________________
-
-Hewoo, so you have a copy of my script huh?
-
-Well, I hope it's TheNolle or TheNolle Studios who gave you this!
-  You can add me on discord <TheNolle#3792> to report any bugs with it!
-     Or simply join the discord ( https://discord.gg/yUgp7k8 ).
-
-*****************************************************************
-*  I know this box is annoying, but as soon as I find a way of  *
-*  showing it only once, i'll do it !                           *
-*****************************************************************
-
-⚠ This script is in its release version, but it doesn't mean it's
-   100% working! You are asked to transfer me any problems you could
-   have with it (with screens if possible) as soon as you can! ⚠
-
-                                 Kiss ❤
-                                                            - TheNolle
-
-_______________________________________________________________________
-`)
-
     async function queryAsync(query) {
         return new Promise(resolve => {
             const interval = setInterval(() => {
