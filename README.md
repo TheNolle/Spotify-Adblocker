@@ -1,7 +1,7 @@
 # Spotify-Adblocker
 
 
-![**Main**](https://raw.githubusercontent.com/TheNolle/Spotify-Adblocker/master/Main.png)
+![**Banner**](https://raw.githubusercontent.com/TheNolle/Spotify-Adblocker/master/ReadMe%20Presentation.png)
 
 
 ### Description:
