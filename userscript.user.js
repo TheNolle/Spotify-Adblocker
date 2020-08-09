@@ -9,7 +9,7 @@
 // @author       TheNolle Studios
 // @description           Skip Spotify's ads for you before it plays! (So you won't be disturbed by a pesky ad)
 
-// @supportURL   https://github.com/TheNolle/Spotify-Adblocker/issues/new
+// @supportURL   https://github.com/TheNolle/Spotify-Adblocker/issues/new/choose
 // @updateURL    https://github.com/TheNolle/Spotify-Adblocker/raw/master/userscript.user.js
 // @downloadURL  https://github.com/TheNolle/Spotify-Adblocker/raw/master/userscript.user.js
 
