@@ -6,6 +6,7 @@
 
 ### Description:
 Skip Spotify's ads for you before it plays  |  Part of the Spotify Pack
+- Will work only with the web app.
 
 
 ### How To Use:
