@@ -2,9 +2,9 @@
 // @name         Spotify AdBlocker
 // @namespace   thenolle.studios.spotify.addskipper
 
-// @copyright    2020, TheNolle Studios
+// @copyright    2021, TheNolle Studios
 // @license      GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
-// @version      Beta.0.2.8-(Private.Beta)
+// @version      Release.0.2.9-(Public.Release)
 
 // @author       TheNolle Studios
 // @description           Skip Spotify's ads for you before it plays! (So you won't be disturbed by a pesky ad)
@@ -40,6 +40,20 @@ _________________________________________________________________________
     }
 
 !async function () {
+
+    async function queryAsync(query) {
+        return new Promise(resolve => {
+            const interval = setInterval(() => {
+                const element = document.querySelector(query);
+                if (element) {
+                    clearInterval(interval);
+                    return resolve(element);
+                }
+            }, 250);
+        });
+    }
+
+
 
     async function queryAsync(query) {
         return new Promise(resolve => {
